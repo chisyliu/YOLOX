@@ -75,6 +75,9 @@ Step1. Install YOLOX from source.
 ```shell
 git clone git@github.com:Megvii-BaseDetection/YOLOX.git
 cd YOLOX
+pip install -r requirements.txt
+(If VC++ is missing, install the VC++ compiler first according to the error message!)
+(If the onnx and related softwares are hard to be installed, you could skip installing them by commenting out the corresponding lines on requirements.txt)
 pip3 install -v -e .  # or  python3 setup.py develop
 ```
 

@@ -80,6 +80,13 @@ pip install -r requirements.txt
 (If the onnx and related softwares are hard to be installed, you could skip installing them by commenting out the corresponding lines on requirements.txt)
 pip3 install -v -e .  # or  python3 setup.py develop
 ```
+  
+Step1.1. Install Apex
+```shell
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --no-cache-dir .
+```
 
 </details>
 
